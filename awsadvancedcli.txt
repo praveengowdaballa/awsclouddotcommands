@@ -1,0 +1,6 @@
+aws configure --profile prod
+aws configure set profile.prod.region eu-west-1
+aws configure set profile.prod.aws_access_key_id foo
+aws configure set profile.prod.aws_secret_access_key bar
+aws configure set profile.prod.output text
+
