@@ -1,0 +1,3 @@
+aws s3 cp s3://bucket/key - | \
+bzip2 --best | \
+aws s3 cp - s3://bucket/key.bz2
