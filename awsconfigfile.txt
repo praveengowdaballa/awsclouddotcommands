@@ -1,0 +1,8 @@
+#~/.aws/config file editing for s3 controls
+[default]
+region =us-east-1
+s3 = 
+max_concurrent_requests = 20
+multipart_chunksize = 16MB
+multipart_threshold = 64MB
+max_queue_size = 10000
